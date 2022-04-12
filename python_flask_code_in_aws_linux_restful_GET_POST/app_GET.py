@@ -16,6 +16,12 @@ tasks = [
         'description': u'Need to find a good Python tutorial on the web', 
         'done': False
     }
+     {
+        'id': 3,
+        'title': Happy to learn about AWS services',
+        'description': Currently studing in 6 semester', 
+        'done': False
+    },
 ]
 
 @app.route('/todo/api/v1.0/tasks', methods=['GET'])
